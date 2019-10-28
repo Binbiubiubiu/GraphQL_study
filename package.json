@@ -2,7 +2,26 @@
   "name": "GraphQL_study",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Wildlifes/GraphQL_study.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wildlifes/GraphQL_study.git"
+  },
   "author": "Wildlifes <2632003786@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wildlifes/GraphQL_study/issues"
+  },
+  "homepage": "https://github.com/Wildlifes/GraphQL_study#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "apollo-server": "^2.9.7",
+    "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js"
+  }
 }
