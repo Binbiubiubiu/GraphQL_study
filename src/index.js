@@ -47,10 +47,10 @@ const resolvers = {
     }
   },
   User: {
-    firstLetterOfUsername: parent => {
+    firstLetterOfUsername: (parent) => {
       return parent.username[0];
     },
-    username: parent => parent.username
+    username: (parent) => parent.username
   },
   Query: {
     hello: (parent, { name }) => {
